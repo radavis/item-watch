@@ -1,6 +1,8 @@
 # item-watch
 
-Rails API/React.js application demo
+Rails API/React.js application demo. Uses hooks (useState, useReducer, useEffect)
+and `fetch` to manage watching items and maintain state between the front-end and
+back-end.
 
 
 ## todo
