@@ -1,24 +1,22 @@
-# README
+# item-watch
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API/React.js application demo
 
-Things you may want to cover:
 
-* Ruby version
+## todo
 
-* System dependencies
+* [ ] capybara acceptance tests
+* [ ] rspec controller tests
 
-* Configuration
 
-* Database creation
+## commands
 
-* Database initialization
+commands used to build the app
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ rails new app-name --api --database=postgresql --skip-bundle --skip-turbolinks --skip-test
+# scaffolded routes, models, and controllers for items, users, and a join table
+touch public/index.html
+touch public/main.js
+touch public/style.css
+```
